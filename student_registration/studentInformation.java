@@ -66,6 +66,9 @@ public class studentInformation {
             System.out.print("department: ");   
             department = scanner.nextInt();
             setDepartment(department);
+
+         System.out.println("Registrations completed.");
+            
         } catch (InputMismatchException e) {
             System.out.println("Please enter again, the data has input type miscmatch.");
         }
