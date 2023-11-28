@@ -16,7 +16,7 @@ public class studentInformation {
 
     Scanner scanner = new Scanner(System.in);
 
-   
+   // a method that help us to get and set the different data of the students
     public void takeStudentInfo(){
         System.out.println("");
         System.out.println("");
@@ -74,7 +74,7 @@ public class studentInformation {
 
 
 
-
+   // a method that help us to repost the registered information back to us
     public void reportRegistrationInformation(){
         System.out.println("");
         System.out.println("--------------------------------------");
@@ -109,7 +109,7 @@ public class studentInformation {
         
     }
 
-
+    // a fuction that help us to see the slip after we registered
     public void showSlip(){
         System.out.println("");
         System.out.println("Here is your slip.");
@@ -201,8 +201,8 @@ public class studentInformation {
     }
 
 
-
-
+ 
+   // getters and setters 
     public String getFirstName() {
         return firstName;
     }
