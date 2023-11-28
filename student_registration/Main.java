@@ -3,11 +3,14 @@ package student_registration;
 import java.util.Scanner;
 
 public class Main {
-
+    // Name - Latera Dereje
+    // ID - 3273/14
     //  To see the list of registered students after registration insert '0'
 
     public static void main(String[] args){
         boolean x = true;
+
+        // creating new object from the studentInformation class
         var studentinformation = new studentInformation();
         System.out.println("                               WELCOME TO HARAMAYA UNIVERSITY'S REGISTRATION SYSTEM!!!");
 
@@ -29,7 +32,7 @@ public class Main {
                  input = scanner.next();
                  System.out.println("--------------------------------------");
                 
-
+                // we accsses different methods by choosing different method in the if statements
 
                 if (input.equals("1")){
                     studentinformation.takeStudentInfo();
