@@ -81,7 +81,7 @@ public class studentInformation {
     public void reportRegistrationInformation(){
         System.out.println("");
         System.out.println("--------------------------------------");
-        System.out.println("You have registerd successfuly!!!");
+        System.out.println("Here is your registration report...");
         System.out.println("--------------------------------------");
 
         System.out.println("First Name: " + firstName);
